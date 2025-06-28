@@ -1,5 +1,5 @@
 name: Build and test
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 env:
   IOS_SIMULATOR: "iPhone 16"
   IOS_VERSION: "18.0"
